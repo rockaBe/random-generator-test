@@ -1,3 +1,3 @@
-import randomNumberGenerator from 'rockabe-randon-number';
+const randomNumberGenerator = require('rockabe-randon-number').default;
 
 console.log(randomNumberGenerator(1, 10));
